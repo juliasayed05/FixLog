@@ -1306,6 +1306,7 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
   .system-status { display: none; }
   .welcome-strip::after { display: none; }
   .app-footer { padding: 14px 16px 17px; }
+  .auth-screen { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 480px) {
   .sidebar { width: 58px; min-width: 58px; }
